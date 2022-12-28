@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(224, 198, 177);
+}
+
+a:visited {
+    color: grey;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px 10px;
+}
+
+.contact-header a {
+    margin-left: 10px;
+}
+
+.social-header a {
+    margin-right: 10px;
+}
+
+header a:hover {
+    color: #fff;
+}
+
+nav {
+    padding: 30px 10px;
+}
+
+.links a {
+    color: rgb(53, 19, 0);
+    margin-right: 10px;
+}
+
+.links a:hover {
+    color: orange;
+}
